@@ -98,6 +98,7 @@ def escalar_y_modular_un_solo_pdf_streamlit(uploaded_file, num_modulos):
 
 # 🧩 Interfaz de Streamlit
 st.title("MODULAR UNIBANNERS")
+st.info("📌 Sube un PDF que tenga medidas de 400x40, 400x60, 600x40 o 600x60 cm. El sistema lo dividirá en módulos automáticos de 100 cm de ancho.")
 
 uploaded_file = st.file_uploader("📂 Sube tu archivo PDF", type=["pdf"])
 
