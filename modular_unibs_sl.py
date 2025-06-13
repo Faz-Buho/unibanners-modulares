@@ -66,7 +66,7 @@ def escalar_y_modular_un_solo_pdf_streamlit(uploaded_file, num_modulos):
             texto = f"{input_name}-{i+1}/{num_modulos}"
             font_size = 40
             try:
-                font_path = "assets/Arial-Bold.ttf"  # nombre igual al archivo real
+                font_path = "assets/Arial Bold.ttf"  # nombre igual al archivo real
                 font = ImageFont.truetype(font_path, font_size)
 
             except:
